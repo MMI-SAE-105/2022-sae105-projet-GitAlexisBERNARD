@@ -12,34 +12,34 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
+    <header x-data="{MenuIsOpen : false}" >
         <div class="header_flex">
         <a href="index.html"><img src="public/icons/Logo.svg" alt="Logo 4 gélules"></a>
         <h4>Rake over the ashes</h4>
-        <img src ="public/icons/Menu.svg" alt="Menu">
+        <img src ="public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
         </div>
-        <nav>
+        <nav x-show="MenuIsOpen">
             <ul>
-                <li>Faux de Verzy</li>
+                <a href="FR_HTML/FR_Faux_De_Verzy.html"><li>Faux de Verzy</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>Prozac Nation</li>
+                <a href="FR_HTML/FR_ProzacNation.html"><li>Prozac Nation</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>Supercondriaque</li>
+                <a href="FR_HTML/FR_Supercondriaque.html"><li>Supercondriaque</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>Le café</li>
+                <a href="FR_HTML/FR_Odelaf.html"><li>Le café</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>l'utilisation de l’ia dans la médecine</li>
+                <a href="FR_HTML/FR_IA_Medecine.html"><li>l'utilisation de l’ia dans la médecine</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>L’inègal accés à la médecine</li>
+                <a href="FR_HTML/FR_Inegal_Medecine.html"><li>L’inègal accés à la médecine</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>À propos</li>
+                <a href="FR_HTML/FR_A_Propos.html"><li>À propos</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li>Autres projets</li>
+                <a href="FR_HTML/FR_Projets.html"><li>Autres projets</li></a>
                 <img src ="public/icons/Line.svg" alt="ligne de separation">
-                <li><a href="index.html">FR</a><a href="/EN_HTML/EN_index.html">EN</a></li>
+                <li><a href="index.html">FR</a><a href="EN_HTML/EN_index.html">EN</a></li>
             </ul>
         </nav>
-    </header>
+    </header>       
     <main>
         <p>Sur ce blog on peut retrouver plusieurs article autour du domaine médicale mais pas uniquenement. Réalisé en octobre 2022</p>
         <article>
@@ -113,7 +113,7 @@
         <a href="https://twitter.com/NatsuNa24794511"><img src="public/icons/Twitter.svg" alt="Logo Twitter"></a>
         <a href="https://discord.gg/5D6H3RfDBS"><img src="public/icons/Discord.svg"  alt="Logo Discord"></a>
         <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="public/icons/instagram.svg" alt="Logo Instagram"></a>
-        <a href="FR_HTML/Fr_A_Propos.html"><p>À propos</p></a>
+        <a href="FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
         <a href="FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
         <a href="FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
         <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>

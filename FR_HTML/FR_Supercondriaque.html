@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rakes over the ashes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='..//src/css/styles.css'>
+    <script src='..//src/js/main.js'></script>
+    <link rel="shortcut icon" href="../public/icons/Logo.svg"/>
+    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Supercondriaque.html"/>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <header x-data="{MenuIsOpen : false}" >
+        <div class="header_flex">
+        <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
+        <h4>Rake over the ashes</h4>
+        <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
+        </div>
+        <nav x-show="MenuIsOpen">
+            <ul>
+                <a href="FR_Faux_De_Verzy.html"><li>Faux de Verzy</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_ProzacNation.html"><li>Prozac Nation</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_Supercondriaque.html"><li>Supercondriaque</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_Odelaf.html"><li>Le café</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_IA_Medecine.html"><li>l'utilisation de l’ia dans la médecine</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_Inegal_Medecine.html"><li>L’inègal accés à la médecine</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_A_Propos.html"><li>À propos</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <a href="FR_Projets.html"><li>Autres projets</li></a>
+                <img src ="../public/icons/Line.svg" alt="ligne de separation">
+                <li><a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a></li>
+            </ul>
+        </nav>
+    </header>       
+    <main>
+
+    </main>
+    <footer>
+        <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
+        <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg"  alt="Logo Discord"></a>
+        <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
+        <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
+        <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
+        <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
+        <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
+        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+        <img src="../public/img/MMI_logo_white.webp" alt="Logo du dépatement MMI Montbeliard"> 
+        <p>Alexis BERNARD</p>
+        <p>BUT MMI-1 A1</p>
+    </footer>
+</html>
