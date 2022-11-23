@@ -1,59 +1,140 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rakes over the ashes</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='..//src/css/styles.css'>
-    <script src='..//src/js/main.js'></script>
-    <link rel="shortcut icon" href="../public/icons/Logo.svg"/>
-    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_index.html"/>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
-<body>
-    <header x-data="{MenuIsOpen : false}" >
-        <div class="header_flex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..//src/css/styles.css" >
+    <script src="..//src/js/main.js"></script>
+    <link rel="shortcut icon" href="../public/icons/Logo.svg">
+    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_index.html" >
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body>
+    <header x-data="{MenuIsOpen : false}">
+      <div class="header_flex">
         <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
         <h4>Rake over the ashes</h4>
-        <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
-        </div>
-        <nav x-show="MenuIsOpen">
-            <ul>
-                <a href="FR_Faux_De_Verzy.html"><li>Faux de Verzy</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_ProzacNation.html"><li>Prozac Nation</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Supercondriaque.html"><li>Supercondriaque</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Odelaf.html"><li>Le café</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_IA_Medecine.html"><li>l'utilisation de l’ia dans la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Inegal_Medecine.html"><li>L’inègal accés à la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_A_Propos.html"><li>À propos</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Projets.html"><li>Autres projets</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <li><a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a></li>
-            </ul>
-        </nav>
-    </header>       
+        <img src="../public/icons/Menu.svg"alt="Menu"@click="MenuIsOpen =! MenuIsOpen" alt="Logo menu">
+      </div>
+      <nav x-show="MenuIsOpen">
+        <ul>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">Faux de Verzy</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_ProzacNation.html">Prozac Nation</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Supercondriaque.html">Supercondriaque</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Odelaf.html">Le café</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_A_Propos.html">À propos</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Projets.html">Autres projets</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-
+      <article class="artivle 1">
+        <h3>Une forêt étrange en plein coeur de la Champagne-Ardenne</h3>
+        <img src="../public/img/Faux_De_Verzy_M.webp" alt="image foret">
+      </article>
+      <article>
+        <p>
+          La forêt des faux de verzy est situé au milieu de la montagne de reims
+          dans le département de la Champagne -Ardenne, cette forêt contient
+          plus de 800 faux , se sont des hêtre tortillards un type de hêtres qui
+          à pour spécificité des branches et rameaux tordus qui retombe sur eux
+          même,ce qui leurs donne une allure de parapluie , certain arbre
+          peuvent faire au maximum 5 mètre de haut .
+        </p>
+        <div class="test">
+          <img src="../public/img/Logo_Foret.webp" alt="Logo foret">
+          <p>
+            Cette forêt à gagner le label de forêt exception visant la
+            protection du patrimoine forestier en France .
+          </p>
+        </div>
+      </article>
+      <hr>
+      <article>
+        <p>
+          En hiver les faux de verzy laisse apparaître des formes plus
+          aléatoires montrant les troncs et les branches courbés à nu sans le
+          feuillage apparaissant les autres saisons. L'été les arbres ressemble
+          davantage à des petites cahute formant des parapluies très dense et
+          voluptueux . En automne on peut retrouver de belles couleurs
+          rouge-orangé pouvant donner de beau rendus pour des photos.
+        </p>
+        <h1>futur carrousel</h1>
+      </article>
+      <hr>
+      <p>
+        L'existence de ces arbres reste encore un mystère même si plusieurs
+        pistes sont envisagées , la plus probable est celle de la mutation
+        génétique. Ces arbres sont très rares, il en existe seulement dans
+        quelques endroits dans le monde, en Allemagne(massif du Süntel) et en
+        Suède(dans le comté de Scanie). en effet les faux tortillards est un
+        espèce d’arbre très peu de fertilité(taux de germination inférieur à 10
+        %), elle possède environ 350 ans d'espérance de vie Pour garder au
+        maximum cette espèce est de préserver la nature environment,le site
+        touristiques de faux de verzy accueil quelque milliers de visiteur par
+        ans menaçant la biodiversité et la faunes local , c’est pour cela que le
+        site à mis un place un chemin balisé rendant accessible qu’une dizaine
+        de faux tortillards,c’est démarche pour préserver l'environnement est
+        aussi là pour permettre de transmettre la beautés de la faune et de la
+        flore au jeunes générations future.
+      </p>
+      <hr>
+      <div>
+        <a href="FR_Frise.html">
+            <h4>Frise des Lieux similaire aux faux de verzy</h4>
+        <img src="../public/img/Faux_De_Verzy_Logo.webp" alt="faux de verzy image">
+        </a>
+      </div>
     </main>
     <footer>
-        <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
-        <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg"  alt="Logo Discord"></a>
-        <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
-        <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
-        <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
-        <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
-        <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        <img src="../public/img/MMI_logo_white.webp" alt="Logo du dépatement MMI Montbeliard"> 
-        <p>Alexis BERNARD</p>
-        <p>BUT MMI-1 A1</p>
+      <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
+      <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg" alt="Logo Discord"></a>
+      <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
+      <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
+      <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
+      <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
+      <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
+      <p>
+        Projet réalisé dans le cadre d’un exercice pédagogique au département
+        MMI de Montbéliard
+      </p>
+      <img src="../public/img/MMI_logo_white.webp"alt="Logo du dépatement MMI Montbeliard">
+      <p>Alexis BERNARD</p>
+      <p>BUT MMI-1 A1</p>
     </footer>
+  </body>
 </html>

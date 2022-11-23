@@ -7,53 +7,135 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='..//src/css/styles.css'>
     <script src='..//src/js/main.js'></script>
-    <link rel="shortcut icon" href="../public/icons/Logo.svg"/>
-    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Odelaf.html"/>
+    <link rel="shortcut icon" href="../public/icons/Logo.svg">
+    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Odelaf.html">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header x-data="{MenuIsOpen : false}" >
-        <div class="header_flex">
+    <header x-data="{MenuIsOpen : false}">
+      <div class="header_flex">
         <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
         <h4>Rake over the ashes</h4>
-        <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
-        </div>
-        <nav x-show="MenuIsOpen">
-            <ul>
-                <a href="FR_Faux_De_Verzy.html"><li>Faux de Verzy</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_ProzacNation.html"><li>Prozac Nation</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Supercondriaque.html"><li>Supercondriaque</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Odelaf.html"><li>Le café</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_IA_Medecine.html"><li>l'utilisation de l’ia dans la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Inegal_Medecine.html"><li>L’inègal accés à la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_A_Propos.html"><li>À propos</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Projets.html"><li>Autres projets</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <li><a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a></li>
-            </ul>
-        </nav>
-    </header>       
+        <img src="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
+      </div>
+      <nav x-show="MenuIsOpen">
+        <ul>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">Faux de Verzy</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_ProzacNation.html">Prozac Nation</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Supercondriaque.html">Supercondriaque</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Odelaf.html">Le café</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_A_Propos.html">À propos</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Projets.html">Autres projets</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-
+      <article class="artivle 1">
+        <h3>
+            Musique le café
+        </h3>
+        <img src="../public/img/Odelaf_L.webp" alt="pochette album odelaf">
+      </article>
+      <article>
+        <div>
+            <h2>
+                Une musique iconique du duo Oldelaf et Monsieur D
+            </h2>           
+          <p>
+            Le titre “Le café” est une chanson de l’Album de la maturité paru en 2005 .
+            Le groupe est connu pour des chansons à caractère humoristique dans les années 2000
+            Cette musique fait la diatribe du café avec un des problèmes de la société  est que 
+            les hommes boivent beaucoup de café au travail.La chanson nous raconte l’histoire
+            d’un homme durant sa journée de travail, il commence sa journée par prendre un premier 
+            café au réveil puis un deuxième à son arrivée au bureau quand il n’y a personne,  
+            au fur et mesure de la journée il boit encore plus de café,puis plusieurs fois au bureau
+            et de retour chez lui,  et à chaque nouveau café il devient de plus en plus , jusqu'à tomber 
+            dans l’absurde avec la phrase “Mmh, j'la jette par la fenêtre, elle l'avait bien cherché “.            
+          </p>
+          <img src="../public/icons/Odelaf_Degra_rond_right.svg" alt="element decoratif">
+          <img src="../public/icons/Odelaf_Degra_rond_left.svg" alt="element decoratif">
+          <img src="../public/icons/Odelaf_Degra_rond_right.svg" alt="element decoratif">
+        </div>
+      </article>
+      <hr>  
+      <video src="../public/video/Le Cafe - Oldelaf  Future Shorts.mp4" width=330  height=186 controls poster="../public/img/vidéo_café.webp">
+        Cette vidéo ne peut être affichée sur votre navigateur Internet.<br>
+        Une version est disponible sur ce lien <a href="https://www.youtube.com/watch?v=UGtKGX8B9hU">https://www.youtube.com/watch?v=UGtKGX8B9hU</a> . 
+      </video>
+      <hr>
+      <article>
+      <p>
+        Dans cette chanson, le groupe fait exprès de répéter plusieurs
+        fois le mot café (total de 9 fois ).Leur but est de mettre en 
+        évidence de façon satirique et humoristique ,l’abus de consommation
+        de café, le café peut entraîner nombre effect secondaire à sa 
+        surconsommation comme nervosité, agitation, anxiété, insomnie, irritation 
+        de l'estomac.On peut voir la décadence de l’homme au cours de la musique, 
+        avec sa voix de plus en plus forte accentuant sur le dérive psychologique du personnage 
+        La musique suit un rythme de plus rapide à force que l’homme sombre dans sa folie, 
+        faisant directement référence agitation provoqué par la surconsommation de café 
+        La musique aura eu le droit à son petit succès avec une clip créé à partir de 
+        cette musique par l’Ecole des Métiers du Cinéma d'Animation d'angoulême accumulent 
+        plus de 20M de vu sur youtube mettant en scène l’homme dans sa journée avec des petit 
+        animation de type adobe flash, le clip réalisé en 2007 .
+      </p>
+      <img src="../public/icons/Odelaf_Degra_rond_left.svg" alt="element decoratif">
+      <img src="../public/icons/Odelaf_Degra_rond_right.svg" alt="element decoratif">
+      <img src="../public/icons/Odelaf_Degra_rond_left.svg" alt="element decoratif">
+      <img src="../public/icons/Odelaf_Degra_rond_right.svg" alt="element decoratif">   
+      </article>
+      <hr>
+      <div>
+        <a href="FR_Lyrics.html">
+          <h4>Parole de la chanson </h4>
+          <img src="../public/img/Odelaf_Carre.webp"alt="pochette album odelafn">
+        </a>
+      </div>
     </main>
     <footer>
-        <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
-        <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg"  alt="Logo Discord"></a>
-        <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
-        <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
-        <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
-        <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
-        <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        <img src="../public/img/MMI_logo_white.webp" alt="Logo du dépatement MMI Montbeliard"> 
-        <p>Alexis BERNARD</p>
-        <p>BUT MMI-1 A1</p>
+      <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"/></a>
+      <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg" alt="Logo Discord"/></a>
+      <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"/></a>
+      <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
+      <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
+      <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
+      <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
+      <p>
+        Projet réalisé dans le cadre d’un exercice pédagogique au département
+        MMI de Montbéliard
+      </p>
+      <img src="../public/img/MMI_logo_white.webp"alt="Logo du dépatement MMI Montbeliard">
+      <p>Alexis BERNARD</p>
+      <p>BUT MMI-1 A1</p>
     </footer>
+  </body>
 </html>

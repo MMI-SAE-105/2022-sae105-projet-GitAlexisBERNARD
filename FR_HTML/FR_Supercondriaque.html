@@ -7,53 +7,132 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='..//src/css/styles.css'>
     <script src='..//src/js/main.js'></script>
-    <link rel="shortcut icon" href="../public/icons/Logo.svg"/>
-    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Supercondriaque.html"/>
+    <link rel="shortcut icon" href="../public/icons/Logo.svg">
+    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Supercondriaque.html">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header x-data="{MenuIsOpen : false}" >
-        <div class="header_flex">
+    <header x-data="{MenuIsOpen : false}">
+      <div class="header_flex">
         <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
         <h4>Rake over the ashes</h4>
-        <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
-        </div>
-        <nav x-show="MenuIsOpen">
-            <ul>
-                <a href="FR_Faux_De_Verzy.html"><li>Faux de Verzy</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_ProzacNation.html"><li>Prozac Nation</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Supercondriaque.html"><li>Supercondriaque</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Odelaf.html"><li>Le café</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_IA_Medecine.html"><li>l'utilisation de l’ia dans la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Inegal_Medecine.html"><li>L’inègal accés à la médecine</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_A_Propos.html"><li>À propos</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <a href="FR_Projets.html"><li>Autres projets</li></a>
-                <img src ="../public/icons/Line.svg" alt="ligne de separation">
-                <li><a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a></li>
-            </ul>
-        </nav>
-    </header>       
+        <img src="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
+      </div>
+      <nav x-show="MenuIsOpen">
+        <ul>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">Faux de Verzy</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_ProzacNation.html">Prozac Nation</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Supercondriaque.html">Supercondriaque</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Odelaf.html">Le café</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_A_Propos.html">À propos</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Projets.html">Autres projets</a>
+            <hr>
+          </li>
+          <li>
+            <a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-
+      <article class="artivle 1">
+        <article>
+        <h3>
+            Supercondriaque un film uniquement humoristique ?
+        </h3>
+        <img src="../public/img/Supercondriaque_L.webp" alt="affiche film supercondraque">
+      </article>
+      <article>
+        <div>
+          <h2>
+            Un film attendu après le succés de bienvenue chez les chti et Rien à déclarer 
+          </h2>
+          <p>
+            Le film supercondriaque et un films humoristique sortis en 2014 
+            écrit et réalisé par le célèbre acteur français Dany Boon.
+            Dans ce film, il est lui-même l'acteur principal. Il incarnant un homme
+            de 40 ans du nom de  Romain Faubert, Il est hypocondriaque, ayant 
+            une peur excessive des maladies le film joue autour de ce trouble mental 
+            qui donne lui à des situations complètement irréel( exemple utilise du gel
+            hydroalcoolique pour se désinfecter le visage des bactéries d'une embrassades)
+            le but premier est de faire rire les spectateur.
+          </p>
+        </div>
+      </article>
+      <hr>
+      <div>
+        <h1>futur carrousel</h1>
+      </div>
+      <hr>
+      <article>
+      <p>
+        Justifiant le nom du film n'étant pas juste une personne hypocondriaque mais
+        supercondrique.Le film va au-delà de son côté humoristique en mettant en avant 
+        des associations d'aide humanitaires comme Médecin du Monde.Dany boon a voulu 
+        que son film à voulu faire prendre conscience à ses spectateur le besoin d’aide
+        du monde extérieur,en prenant comme personnage principale quelqu'un qui n’a
+        pas de de problème grave, juste quelqu'un qui se crée des faux et qui au fur et
+        à mesure du film réussit à changer son et il y a outre passé sa peur des maladies. 
+        Le décalage entre les scènes passant de des appartements parisiens très luxueux à des 
+        lieux de guerre permettant à ce film de donner un second message au-delà de son côté divertissant. 
+        
+      </p>
+      <img src="../public/icons/Degra_Super_left.svg" alt="element decoratif">
+      <p>
+        Le personnage de romain fobert et accompagner durant tout le film par son 
+        medécin Dr Dimitri qui en a marre de lui suite et  de ses nombreuses visites 
+        inutiles mais décide quand même de l'aider à guérir sa maladie en lui trouvant 
+        une femme et en l'aidant et en lui forcant à faire une aide humanitaire il va 
+        donc au fur et à mesure évoluer en surmontant sa malade en passant par des lieux 
+        insalubre comme une prison ou il va devoir vivre malgré ses sentiments désagreable 
+        qui peu ressentir.Le film à accumlé plus de 6 373 542 places pour son film dans le monde .
+      </p>
+      <img src="../public/icons/Degra_Super_Right.svg" alt="element decoratif">
+    </article>
+    <hr>
+      <div>
+        <h1>futur carrousel</h1>
+      </div>
     </main>
     <footer>
-        <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
-        <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg"  alt="Logo Discord"></a>
-        <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
-        <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
-        <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
-        <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
-        <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-        <img src="../public/img/MMI_logo_white.webp" alt="Logo du dépatement MMI Montbeliard"> 
-        <p>Alexis BERNARD</p>
-        <p>BUT MMI-1 A1</p>
+      <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"/></a>
+      <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg" alt="Logo Discord"/></a>
+      <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"/></a>
+      <a href="../FR_HTML/FR_A_Propos.html"><p>À propos</p></a>
+      <a href="../FR_HTML/FR_Projets.html"><p>Autres projets</p></a>
+      <a href="../FR_HTML/FR_Glossaire.html"><p>Glossaire</p></a>
+      <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
+      <p>
+        Projet réalisé dans le cadre d’un exercice pédagogique au département
+        MMI de Montbéliard
+      </p>
+      <img src="../public/img/MMI_logo_white.webp"alt="Logo du dépatement MMI Montbeliard">
+      <p>Alexis BERNARD</p>
+      <p>BUT MMI-1 A1</p>
     </footer>
+  </body>
 </html>
