@@ -1,0 +1,125 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Rakes over the ashes</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='../src/css/styles.css'>
+        <script src='../src/js/main.js'></script>
+        <link rel="shortcut icon" href="../public/icons/Logo.svg">
+        <link rel="alternate" hreflang="en" href="../EN_HTML/EN_index.html">
+        <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+    <body>
+        <header x-data="{MenuIsOpen : false}">
+            <div class="header_flex">
+            <a href="index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
+            <h4>Rake over the ashes</h4>
+            <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
+            </div>
+            <nav x-show="MenuIsOpen">
+                <ul>
+                    <li><a href="FR_Faux_De_Verzy.html">Faux de Verzy</a><hr></li>
+                    
+                    <li><a href="FR_ProzacNation.html">Prozac Nation</a><hr></li>
+                    
+                    <li><a href="FR_Supercondriaque.html">Supercondriaque</a><hr></li>
+                    
+                    <li><a href="FR_Odelaf.html">Le café</a><hr></li>
+                    
+                    <li><a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a><hr></li>
+                    
+                    <li><a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a><hr></li>
+                    
+                    <li><a href="FR_A_Propos.html">À propos</a><hr></li>
+                    
+                    <li><a href="FR_Projets.html">Autres projets</a><hr></li>
+                    
+                    <li><a href="index.html">FR</a><a href="EN_HTML/EN_index.html">EN</a></li>
+                </ul>
+            </nav>
+        </header>       
+        <main>
+            <p>Sur ce blog on peut retrouver plusieurs article autour du domaine médicale mais pas uniquenement. Réalisé en octobre 2022</p>
+            <article>
+                <a href="FR_Faux_De_Verzy.html">
+                    <img src="../public/img/Faux_De_Verzy_L.webp" alt="Photo arbre faux de verzy">
+                    <div>
+                        <h3>Faux de Verzy</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">   
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="FR_ProzacNation.html">
+                    <img src="../public/img/ProzacNation_L.webp" alt="couverture du livre prozac nation">
+                    <div>
+                        <h3>Prozac Nation</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="FR_Supercondriaque.html">
+                    <img src="../public/img/Supercondriaque_L.webp" alt="Affiche film Supercondriaque">
+                    <div>
+                        <h3>Supercondriaque</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="FR_Odelaf.html">
+                    <img src="../public/img/Odelaf_L.webp" alt="pochette de la musique le café">
+                    <div>
+                        <h3>Musique le café</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="FR_IA_Medecine.html">
+                    <img src="../public/img/Bot_L.webp" alt="Image de robot futuriste">
+                    <div>
+                        <h3>l'utilisation de l’ia dans la médecine</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">
+                    </div>
+                </a>
+            </article>
+            <article>
+                <a href="FR_Inegal_Medecine.html">
+                    <img src="../public/img/Medecin_L.webp" alt="Image d'un médecin">
+                    <div>
+                        <h3>L’inègal accés à la médecine</h3>
+                        <img src="../public/icons/Rectangle_White_S.svg" alt="#">
+                        <img src="../public/icons/Send_To_Other_Page.svg" alt="Logo fléche">
+                        <img src="../public/icons/Ellipse_White_S.svg" alt="#">
+                    </div>
+                </a>
+            </article>
+        </main>
+        <footer>
+            <a href="https://twitter.com/NatsuNa24794511"><img src="../public/icons/Twitter.svg" alt="Logo Twitter"></a>
+            <a href="https://discord.gg/5D6H3RfDBS"><img src="../public/icons/Discord.svg"  alt="Logo Discord"></a>
+            <a href="https://www.instagram.com/natsuestla/?next=%2Fnatsla26%2F"><img src="../public/icons/instagram.svg" alt="Logo Instagram"></a>
+            <a href="FR_A_Propos.html"><p>À propos</p></a>
+            <a href="FR_Projets.html"><p>Autres projets</p></a>
+            <a href="FR_Glossaire.html"><p>Glossaire</p></a>
+            <a href="mailto:alexis.bernard@ymail.com">alexis.bernard@ymail.com</a>
+            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+            <img src="../public/img/MMI_logo_white.webp" alt="Logo du dépatement MMI Montbeliard"> 
+            <p>Alexis BERNARD</p>
+            <p>BUT MMI-1 A1</p>
+        </footer>
+    </html>

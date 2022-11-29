@@ -11,6 +11,26 @@
     <link rel="alternate" hreflang="en" href="../EN_HTML/EN_Inequal_Medecine.html">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
+<header x-data="{MenuIsOpen : false}" >
+  <div class="header_flex">
+  <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
+  <h4>Rake over the ashes</h4>
+  <img src ="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
+  </div>
+  <nav x-show="MenuIsOpen">
+      <ul>
+          <li><a href="FR_Faux_De_Verzy.html">Faux de Verzy</a><hr></li>
+          <li><a href="FR_ProzacNation.html">Prozac Nation</a><hr></li>
+          <li><a href="FR_Supercondriaque.html">Supercondriaque</a><hr></li>
+          <li><a href="FR_Odelaf.html">Le café</a><hr></li>
+          <li><a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a><hr></li>
+          <li><a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a><hr></li>
+          <li><a href="FR_A_Propos.html">À propos</a><hr></li>
+          <li><a href="FR_Projets.html">Autres projets</a><hr></li>
+          <li><a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a></li>
+      </ul>
+  </nav>
+</header>       
 <main>
     <article class="artivle 1">
       <h3>
