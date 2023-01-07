@@ -15,3 +15,6 @@ img{
     margin: 0;
     font-size: var(--font-size-heading1)
 }   
+.index__intro__p{
+    font-size: 1.1rem;
+}
