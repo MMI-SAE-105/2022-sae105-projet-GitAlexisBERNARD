@@ -2,7 +2,14 @@
     text-decoration: none;
     color: var(--white1);
 }
+.no_link_page{
+    text-decoration: none;
+    color: var(--black);
+}
 .whitebox{
     background-color: #FFFFFF;
     border-radius: 30px;
+}
+.img_fill{
+    object-fit: fill;
 }

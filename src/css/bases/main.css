@@ -4,3 +4,7 @@ h4{
 p{
     font-family: var(--font-quicksand);
 }
+h3{
+  font-family: var(--font-syne);
+  font-size: var(--soustitre3);
+}

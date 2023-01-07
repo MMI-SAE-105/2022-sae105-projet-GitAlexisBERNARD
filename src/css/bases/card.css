@@ -1,0 +1,47 @@
+.carte_article {
+    width: 80%;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+  }
+  
+  .carte_image {
+      height: 280px;
+      width: 80%;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  
+  .carte_image_boite {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: #c8c2c2;
+      height: 80%;
+      
+  }
+  
+  .carte_texte{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 90px 20px 1px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    text-decoration: none;
+  }
+  
+  .carte_texte h3 {
+    margin: 20px 0px 10px 0px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .carte_image_prozac{
+     object-position: 0px -94px;
+  }

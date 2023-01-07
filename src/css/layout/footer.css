@@ -2,6 +2,8 @@ footer{
     background-color: var(--black2);
     padding: 20px;
     color: var(--white1);
+    font-family: var(--syne);
+    margin-top: 5%;
     
 }
 .footer__name{
@@ -19,3 +21,4 @@ footer{
 .footer__projet{
     text-align: center;
 }
+
