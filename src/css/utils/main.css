@@ -1,0 +1,8 @@
+.no_link_page_footer{
+    text-decoration: none;
+    color: var(--white1);
+}
+.whitebox{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}

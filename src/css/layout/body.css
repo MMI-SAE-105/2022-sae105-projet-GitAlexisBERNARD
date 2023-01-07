@@ -1,8 +1,17 @@
-.test{
-    background: #fFFFFF;
-    border-radius: 0 9.1701866667vw;
-    height: 4.8666666667vw;
-    margin-bottom: 5.3333333333vw;
-    padding: 5.8666666667vw;
-    width: 4.8666666667vw;
+body{
+    background-color: var(--primary6);
+    margin: 0;
 }
+img{
+    max-width: 100%;
+}
+.index__intro{
+    margin: 2%;
+    padding: 15px;
+    height: auto;
+    width: auto;
+}
+.index__intro__p{
+    margin: 0;
+    font-size: var(--font-size-heading1)
+}   

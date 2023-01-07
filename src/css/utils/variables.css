@@ -1,0 +1,26 @@
+:root{
+    --primary4: #f4839f; 
+    --primary5: #fa9d81; 
+    --primary6: #fbe2d0; 
+    --degra1: linear-gradient(90deg, #f4839f 0%, #fa9d81 46.88%, #fbe2d0 100%); 
+    --white1: #ffffff; 
+    --gray1: #d9d9d9; 
+    --black: #000000;
+    --black2: #2B2B2B; 
+    --policetitre3: 500 1rem/6.875000149011612rem Syne; 
+    --heading1: 400 1.25rem/6.875000149011612rem Syne; 
+    --heading2: 400 1.25rem/6.875000149011612rem Syne; 
+    --soustitre3: 500 1rem/6.875000149011612rem Syne; 
+    --bodybold: 500 0.8125rem/6.875000149011612rem Syne; 
+    --footerlink: 400 0.75rem/6.875000149011612rem Roboto Mono; 
+    --footer: 400 0.75rem/6.875000149011612rem Roboto Mono; 
+    --body: 400 1.125rem/6.875000149011612rem Quicksand; 
+    --titre2: 400 1.0625rem/6.875000149011612rem Syne; 
+    --titrebold: 700 1.125rem/6.875000149011612rem Syne; 
+    --lyrics: 500 0.8125rem/7.874999940395355rem Syne; 
+    --font-size-heading1 : 20px;
+    --font-size-footer : 12px;
+
+    --font-syne : 'Syne', sans-serif;
+    --font-quicksand : 'Quicksand', sans-serif;
+}

@@ -1,4 +1,44 @@
-.header_flex{
+header {
+    background-color: var(--white1);
+    height: 72px;
+}
+.header__flex{
+    height: 52px;
+    top: 0px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    align-items: center !important;
 }
+.header__logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    }
+.header__button{
+    border: 0px;
+    background-color: transparent;  
+}
+.header__item{
+    font-size: var(--font-size-heading1);
+    margin-right : 30px;
+}
+.header-right{
+    positon:relative;
+    flex: 0 0 auto;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+    background-color: var(--primary6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: all 0.75s;
+    transform: translateY(100vh);
+  }
+  
