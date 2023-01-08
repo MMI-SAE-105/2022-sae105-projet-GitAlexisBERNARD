@@ -1,7 +1,7 @@
 - NOM : BERNARD
 - PRÉNOM : Alexis
-- URL du site :
-- URL FIGMA :
+- URL du site :https://rake-over-the-ashes.alexisbernardev.fr/
+- URL FIGMA : https://www.figma.com/file/qaI9qQboP1zIiJeyDi9lZq/Projet-s1?node-id=5%3A4&t=b3F66KMdskPQZkJR-0
 
 # Structure de départ pour le projet individuel.
 
