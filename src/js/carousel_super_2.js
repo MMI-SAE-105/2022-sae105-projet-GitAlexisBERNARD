@@ -1,8 +1,8 @@
-const img = document.getElementById('carousel');
+const img = document.getElementById('carousel-2-js');
 const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
 
-let pictures = ['../../public/img/faux_verzy_ete.webp','../../public/img/faux_verzy_hiver.webp','../../public/img/faux_verzy_automne.webp'];
+let pictures = ['../../public/img/Dany_Boon.webp','../../public/img/Kad_Merad.webp','../../public/img/Alice_Pol.webp'];
 
 img.src = pictures[0];
 let position = 0;

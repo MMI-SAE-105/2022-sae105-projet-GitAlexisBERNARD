@@ -12,10 +12,7 @@ img{
     width: auto;
 }
 
-.index__intro__p{
-    margin: 0;
-    font-size: var(--font-size-heading1)
-}   
+ 
 .index__intro__p{
     font-size: 1.1rem;
 }
@@ -63,4 +60,91 @@ p{
     height: 70px;
     text-align: center;
     color: black;
+}
+.prozac_nation_first_bar{
+    position: absolute;
+    top: 84%
+}
+.prozac_nation_two_bar{
+    position: absolute;
+    right: 0;
+    top: 146%;
+}
+.index__article{
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.index__intro__p{
+    margin: 0;
+    font-size: var(--font-size-heading1);
+    padding: 10px;
+} 
+.whitebox_super{
+    margin-top: 10px;
+    padding: 5px;
+}
+.super_first_bar{
+    position: absolute;
+    top: 165%;
+}
+.super_two_bar{
+    position: absolute;
+    top: 230%;
+    right: 0;
+}
+.index__intro_odelaf{
+    margin: 2%;
+    padding: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.odelaf_decoration_1{
+    position: absolute;
+    top: 70%;
+    right: 0;
+}
+.odelaf_decoration_2{
+    position: absolute;
+    top: 90%;
+}
+.odelaf_decoration_3{
+    position: absolute;
+    top: 110%;
+    right: 0;
+}
+.odelaf_decoration_4{
+    position: absolute;
+    top: 165%;
+}
+.odelaf_decoration_5{
+    position: absolute;
+    top: 180%;
+    right: 0;
+}
+.odelaf_decoration_6{
+    position: absolute;
+    top: 205%;
+}
+.odelaf_decoration_7{
+    paddin:;
+    position: absolute;
+    top: 225%;
+    right: 0;
+}
+.odelaf_decoration_8{
+    position: absolute;
+    top: 230%;
+    right: 0;
+}
+.vidéo_odelaf{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-decoration article p{
+    padding: 10%;
 }

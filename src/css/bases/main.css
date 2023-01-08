@@ -9,7 +9,13 @@ p{
 }
 h3{
   font-family: var(--font-syne);
-  font-size: var(--soustitre3);
   margin: 0;
   padding: 3%;
+  font-weight: regular;
+  font-size: 18px;
+}
+h2{
+  font-family: var(--font-syne);
+  text-align: center;
+  font-size: 20px;
 }
