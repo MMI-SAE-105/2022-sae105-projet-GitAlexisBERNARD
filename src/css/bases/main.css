@@ -19,3 +19,7 @@ h2{
   text-align: center;
   font-size: 20px;
 }
+.parole p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

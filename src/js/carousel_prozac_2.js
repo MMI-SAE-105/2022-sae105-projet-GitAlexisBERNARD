@@ -2,7 +2,7 @@ const img1 = document.getElementById('carousel-1');
 const rightBtn1 = document.getElementById('right-btn_1');
 const leftBtn1 = document.getElementById('left-btn_1');
 
-let pictures1 = ['../../public/img/bienvenue_chez_les_chtis.webp','../../public/img/raid_dingue.webp','../../public/img/Rien_a_declarer.webp','../../public/img/Supercondriaque_film.webp'];
+let pictures1 = ['../../public/img/bitch.webp','../../public/img/more_now_again.webp','../../public/img/The_secret_of_life.webp','../../public/img/prozac_nation_carousel.webp'];
 
 img1.src = pictures1[0];
 let position1 = 0;

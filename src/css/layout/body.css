@@ -171,7 +171,9 @@ p{
     flex-direction: column;
     text-align: center;
     line-height: 2rem;
-
+}
+.main_flex p{
+    padding: 4%
 }
 .glossaire{
     text-align: left
