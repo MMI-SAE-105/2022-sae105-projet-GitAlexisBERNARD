@@ -11,10 +11,56 @@ img{
     height: auto;
     width: auto;
 }
+
 .index__intro__p{
     margin: 0;
     font-size: var(--font-size-heading1)
 }   
 .index__intro__p{
     font-size: 1.1rem;
+}
+p{
+    padding: 8%;
+    margin: 0;
+}
+.logo_foret {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+    padding: 15px; 
+    border-radius: 20px;
+    margin-top: -20px;
+}
+.block_article_degra{
+    width: 70%;
+    display: block;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, rgba(244, 131, 159, 0.8) 9.57%, rgba(250, 157, 129, 0.81) 56.45%, #FBE2D0 109.57%);
+    border-radius: 24px;
+}
+.flex_article{
+    display: flex;
+    justify-content: center;
+}
+.faux_verzy_img{
+    width: 88px;
+    padding-top: 14px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+}
+.flex_article h4{
+    padding: 1em;
+    margin: 0;
+    padding-top: 26px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    color: black;
 }

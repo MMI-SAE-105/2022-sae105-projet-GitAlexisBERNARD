@@ -1,10 +1,15 @@
 h4{
     font-family: var(--font-syne);
+    font-size: 0.95rem;
 }
 p{
-    font-family: var(--font-quicksand)
+    font-family: var(--font-quicksand);
+    font-size: 1.125rem;
+    padding-top: 5%;
 }
 h3{
   font-family: var(--font-syne);
   font-size: var(--soustitre3);
+  margin: 0;
+  padding: 3%;
 }

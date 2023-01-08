@@ -1,63 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Rakes over the ashes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="..//src/css/styles.css">
-    <script src="..//src/js/main.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../src/css/styles.css'>
+    <script src='../src/js/main.js'></script>
     <link rel="shortcut icon" href="../public/icons/Logo.svg">
-    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_ProzacNation.html">
-    <script
-      defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  </head>
-  <body>
-    <header x-data="{MenuIsOpen : false}">
-      <div class="header_flex">
-        <a href="../index.html"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
-        <h4>Rake over the ashes</h4>
-        <img src="../public/icons/Menu.svg" alt="Menu" @click="MenuIsOpen =! MenuIsOpen">
-      </div>
-      <nav x-show="MenuIsOpen">
-        <ul>
-          <li>
-            <a href="FR_Faux_De_Verzy.html">Faux de Verzy</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_ProzacNation.html">Prozac Nation</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_Supercondriaque.html">Supercondriaque</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_Odelaf.html">Le café</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_IA_Medecine.html">l'utilisation de l’ia dans la médecine</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_A_Propos.html">À propos</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_Projets.html">Autres projets</a>
-            <hr>
-          </li>
-          <li>
-            <a href="FR_Faux_De_Verzy.html">FR</a><a href="../EN_HTML/EN_Faux_De_Verzy.html">EN</a>
-          </li>
-        </ul>
-      </nav>
+    <link rel="alternate" hreflang="en" href="../EN_HTML/EN_index.html">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__flex">
+        <div  class="header__logo">
+        <a href="/FR_HTML/"><img src="../public/icons/Logo.svg" alt="Logo 4 gélules"></a>
+        </div>
+        <h4 class="header__item">Rake over the ashes</h4>
+        <div class="header-right" >
+            <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
+                <div class="nav-toggle-bar"></div>
+            </div>
+        </div>
+        </div>
+        <nav class="header__menu menu" > 
+            <div class="langague"><a href="../EN_HTML/index.html"><img src=" ../public/icons/globe.svg" alt="logo changement de langue"></a></div>
+            <ul>
+                <li class="menu__item"><a class="menu__link" href="FR_Faux_De_Verzy.html">Faux de Verzy</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_ProzacNation.html">Prozac Nation</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_Supercondriaque.html">Supercondriaque</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_Odelaf.html">Le café</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_IA_Medecine.html">L’ia dans la médecine</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_Inegal_Medecine.html">L’inègal accés à la médecine</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_A_Propos.html">À propos</a></li>
+                
+                <li class="menu__item"><a class="menu__link" href="FR_Projets.html">Autres projets</a></li>
+            </ul>
+        </nav>
+    </div>
     </header>
     <main>
       <article class="artivle 1">
