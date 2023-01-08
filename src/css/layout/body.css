@@ -128,7 +128,6 @@ p{
     top: 205%;
 }
 .odelaf_decoration_7{
-    paddin:;
     position: absolute;
     top: 225%;
     right: 0;
@@ -136,6 +135,15 @@ p{
 .odelaf_decoration_8{
     position: absolute;
     top: 230%;
+    right: 0;
+}
+.ia_decoration_1{
+    position: absolute;
+    top: 145%;
+}
+.ia_decoration_2{
+    position: absolute;
+    top: 185%;
     right: 0;
 }
 .vidéo_odelaf{
@@ -147,4 +155,16 @@ p{
 
 .text-decoration article p{
     padding: 10%;
+}
+.image_propos{
+    width: 225px;
+    height: 225px;
+}
+.flex_image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+main_flex{
+    
 }

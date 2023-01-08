@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input, select {
+    font-family: var(--font-syne);
+    width: 280px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+.imput_details{
+    height: 130px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
