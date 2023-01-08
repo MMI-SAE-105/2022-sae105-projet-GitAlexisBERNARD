@@ -1,0 +1,143 @@
+.main_frise{
+    box-sizing: border-box;
+}
+.timeline{
+    position: relative; 
+}
+.timeline h6{
+    font-family: var(--font-syne);
+    font-size: 1rem;
+    margin: 5px;
+    text-align: center;
+}
+.timeline-item::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 250px;
+    left: 50%;
+}
+.timeline-item:last-child::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 0px;
+    left: 50%;
+}
+
+.timeline-item_first-child::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 250px;
+    margin-top: px;
+    left: 50%;
+}
+.timeline-item{
+    margin: 0 74px;
+} 
+.timeline-description_left{
+    display: inline-block;
+    margin-bottom: 64px;
+    padding: 16px;
+    background-color: #fff;
+    width: 130px;
+    margin-left: -68px;
+    margin-top: -20px;
+    border-radius: 20px;
+    word-wrap: break-word;   
+}
+.timeline-description_right{
+    display: inline-block;
+    margin-bottom: 64px;
+    padding: 16px;
+    background-color: #fff;
+    width: 130px;
+    margin-left: 135px;
+    margin-top: -20px;
+    border-radius: 20px;
+    word-wrap: break-word;   
+}
+.timeline-item:first-child .timeline-description{
+    margin-top: 25px;
+}
+.timeline-marker{
+    position: relative;
+    z-index: 0;
+    border-radius: 50%;
+    background-color: #FBE2D0;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #000;
+    margin-left: 104px;
+    top: 16px;
+}
+.timeline-description_right::before{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 35px;
+    height: 3px;
+    margin-left: -34px;
+    margin-top: 10px;
+    z-index: -1;
+}
+.timeline-description_left::before{
+    content: '';
+    position: absolute;
+    background-color: #000;
+    width: 33px;
+    height: 3px;
+    margin-left: 129px;
+    margin-top: 8px;
+    z-index: -1;
+}
+.ligne_frise{
+    position: absolute;
+    height: 770px;
+    left: 158px;
+    z-index: -3;
+    top: 17px;
+}
+.timeline-item_first-child::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 250px;
+    margin-top: 33px;
+    left: 50%;
+    
+}
+.main_frise h3{
+    font-size: 1rem;
+    padding: 8px;
+}
+.decoration_frise-1{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    z-index: -1;
+}
+.decoration_frise-2{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    z-index: -1;
+}
+.decoration_frise-3{
+    position: absolute;
+    top: 560px;
+    right: 0;
+    z-index: -1;
+
+}
+.decoration_frise-4{
+    position: absolute;
+    top: 810px;
+    left: 0;
+    z-index: -1;
+}
