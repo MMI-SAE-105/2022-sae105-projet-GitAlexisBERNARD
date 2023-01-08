@@ -1,31 +1,31 @@
-const img = document.getElementById('carousel-2-js');
-const rightBtn = document.getElementById('right-btn');
-const leftBtn = document.getElementById('left-btn');
+const img1 = document.getElementById('carousel-1');
+const rightBtn1 = document.getElementById('right-btn_1');
+const leftBtn1 = document.getElementById('left-btn_1');
 
-let pictures = ['../../public/img/Dany_Boon.webp','../../public/img/Kad_Merad.webp','../../public/img/Alice_Pol.webp'];
+let pictures1 =  ['../../public/img/bienvenue_chez_les_chtis.webp','../../public/img/raid_dingue.webp','../../public/img/Rien_a_declarer.webp','../../public/img/la_chtite_famille.webp','../../public/img/Supercondriaque_film.webp'];
 
-img.src = pictures[0];
-let position = 0;
+img1.src = pictures1[0];
+let position1 = 0;
 
-const moveRight = () => {
-    if (position >= pictures.length - 1) {
-        position = 0
-        img.src = pictures[position];
+const moveRight1 = () => {
+    if (position1 >= pictures1.length - 1) {
+        position1 = 0
+        img1.src = pictures1[position1];
         return;
     }
-    img.src = pictures[position + 1];
-    position++;
+    img1.src = pictures1[position1 + 1];
+    position1++;
 }
 
-const moveLeft = () => {
-    if (position < 1) {
-        position = pictures.length - 1;
-        img.src = pictures[position];
+const moveLeft1 = () => {
+    if (position1 < 1) {
+        position1 = pictures1.length - 1;
+        img1.src = pictures1[position1];
         return;
     }
-    img.src = pictures[position - 1];
-    position--;
+    img1.src = pictures1[position1 - 1];
+    position1--;
 }
 
-rightBtn.addEventListener("click", moveRight);
-leftBtn.addEventListener("click", moveLeft);
+rightBtn1.addEventListener("click", moveRight1);
+leftBtn1.addEventListener("click", moveLeft1);

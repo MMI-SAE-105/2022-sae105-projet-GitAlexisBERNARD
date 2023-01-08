@@ -70,6 +70,15 @@ p{
     right: 0;
     top: 146%;
 }
+.prozac_nation_first_bar_EN{
+    position: absolute;
+    top: 90%
+}
+.prozac_nation_two_bar_EN{
+    position: absolute;
+    right: 0;
+    top: 135%;
+}
 .index__article{
     margin-left: 8%;
     margin-right: 10%;
@@ -91,6 +100,15 @@ p{
 .super_two_bar{
     position: absolute;
     top: 230%;
+    right: 0;
+}
+.super_first_bar_en{
+    position: absolute;
+    top: 142%;
+}
+.super_two_bar_en{
+    position: absolute;
+    top: 180%;
     right: 0;
 }
 .index__intro_odelaf{
@@ -137,6 +155,43 @@ p{
     top: 230%;
     right: 0;
 }
+.odelaf_decoration_1_en{
+    position: absolute;
+    top: 62%;
+    right: 0;
+}
+.odelaf_decoration_2_en{
+    top: 770px;
+    position: absolute;
+}
+.odelaf_decoration_3_en{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+.odelaf_decoration_4_en{
+    position: absolute;
+    top: 155%;
+}
+.odelaf_decoration_5_en{
+    position: absolute;
+    top: 1550px;
+    right: 0;
+}
+.odelaf_decoration_6_en{
+    position: absolute;
+    top: 205%;
+}
+.odelaf_decoration_7_en{
+    position: absolute;
+    top: 135%;
+    right: 0;
+}
+.odelaf_decoration_8_en{
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
 .ia_decoration_1{
     position: absolute;
     top: 145%;
@@ -144,6 +199,15 @@ p{
 .ia_decoration_2{
     position: absolute;
     top: 185%;
+    right: 0;
+}
+.ia_decoration_1_en{
+    position: absolute;
+    top: 115%;
+}
+.ia_decoration_2_en{
+    position: absolute;
+    top: 135%;
     right: 0;
 }
 .vidéo_odelaf{
